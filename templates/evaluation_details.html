@@ -1,1 +1,35 @@
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+<p>
+	We will use F1 score to evaluate the performance of each submission. However we will also report Precision, Recall, True Positive Rate (TPR) and False Positive Rate (FPR) on the leaderboard. Additional metrics can be added later in the challenge and their definition will be provided here. For the sake of completion definition of currents metrics are shown below.
+</p>
+<p>
+	<code>
+		Precision = True Positive / (True Positive + False Positive)
+	</code>
+	<br />
+	<br />
+	<code>
+		Recall = True Positive / (True Positive + False Negative)
+	</code>
+	<br />
+	<br />
+	<code>
+		F1 = 2*(Precision * Recall) / (Precision + Recall)
+	</code>
+	<br />
+	<br />
+	<code>
+		True Positive Rate (TPR) = True Positive / (True Positive + False Negative)
+	</code>
+	<br />
+	<br />
+	<code>
+		False Positive Rate (FPR) = False Positive / (False Positive + True Negative)
+	</code>
+	<br />
+	<br />
+	Note that in the supervised and final phase, we would ignore the training data from the&nbsp;
+	<strong>
+		relevance_predictions.tsv
+	</strong>
+	&nbsp;for evaluation.
+</p>
