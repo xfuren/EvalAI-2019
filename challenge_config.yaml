@@ -9,7 +9,7 @@ image: logo.jpg
 submission_guidelines: templates/submission_guidelines.html
 evaluation_script: evaluation_script.zip
 remote_evaluation: False
-start_date: 2019-06-22 00:00:00
+start_date: 2019-06-01 00:00:00
 end_date: 2019-08-31 23:59:59
 published: True
 
@@ -23,7 +23,7 @@ challenge_phases:
     description: templates/challenge_phase_1_description.html
     leaderboard_public: False
     is_public: True
-    start_date: 2019-06-22 00:00:00
+    start_date: 2019-06-01 00:00:00
     end_date: 2019-07-31 23:59:59
     test_annotation_file: annotations/test_annotations_devsplit.json
     codename: dev
